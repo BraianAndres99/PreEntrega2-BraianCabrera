@@ -4,6 +4,21 @@ body{margin: 0%;
     font-family: sans-serif;
 background-color: antiquewhite;}
 
+@media only screen and (max-width:500px) { body {
+    background-color: antiquewhite;}
+}
+@media only screen and (min-width:501px) and (max-width:960px) {
+    body {
+        background-color: antiquewhite;
+}
+}
+@media only screen and (min-width:960px) {
+    body 
+    { 
+        background-color: antiquewhite;
+}
+}
+
 header{ display: flex;
     justify-content: space-between;
     min-height: 90px;
@@ -122,7 +137,7 @@ h4{
     margin: 0%;
     background-color: antiquewhite;}
 
-    #fotoSofia{width: 300px;}
+#fotoSofia{width: 300px;}
 
 #listaSofia{
     font-size: 25px;
@@ -178,12 +193,13 @@ grid-template-columns: repeat(3,1fr);
 flex-wrap: wrap;
 }
 
-.Posiciones{border: 2px solid black;}
-.Puntos{border: 2px solid black;}
-.Equipos{border: 2px solid black;}
+.Posiciones{border:2px solid black;}
+.Puntos{border:2px solid black;}
+.Equipos{border:2px solid black;}
 
-.TituloTablaP{display: flex;
-justify-content: center;}
+.TituloTablaP{
+    display: flex;
+    justify-content: center;}
 
 
 .fotoSportivo{
@@ -201,9 +217,9 @@ justify-content: center;}
 .TextoBio{ 
     display: flex;
     align-items: center;
-
 }
-.Bioparque{margin: 10px;
+.Bioparque{
+    margin: 10px;
     border: 3px solid black;
     display: flex;
     justify-content: end;
@@ -218,7 +234,7 @@ justify-content: center;}
     margin: 10px;
     border: 3px solid black;
     display: flex; 
-    justify-content: center;
+    justify-content:center;
     padding: 10px;
 }
 .FotoPuente{width: 300px;}

@@ -1,0 +1,29 @@
+.TextoBio{ 
+    display: flex;
+    align-items: center;
+}
+.Bioparque{
+    margin: 10px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: end;
+    text-align: justify;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.FotoBioparque{width: 300px;}
+
+.Puente{
+    margin: 10px;
+    border: 3px solid black;
+    display: flex; 
+    justify-content:center;
+    padding: 10px;
+}
+.FotoPuente{width: 300px;}
+
+    #logo_footer_Facebook{width: 70px;}
+    #logo_footer_Youtube{width: 70px;}
+    #logo_footer_Instagram{width: 70px;}
+    #logo_footer_Linkedin{width: 70px;}

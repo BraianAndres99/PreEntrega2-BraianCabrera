@@ -1,0 +1,109 @@
+/* ¿Quienes somos?/Nuestro Equipo*/
+.equipo{
+    text-align: center; 
+    background-color: antiquewhite;
+    margin: 0%;
+    color: green;
+    font-size: 30px;}
+
+#Quienessomos{
+    display: flex;
+    justify-content:center;
+    background-color: antiquewhite;
+    color: green;}
+    
+#Quienessomos img{
+    margin: 20px;
+    width: 300px;
+    display: flex;
+    justify-content:center;}
+    
+h3{
+    display:flex;
+    justify-content:center;
+    margin: 0%;
+    font-size: 20px;
+    background-color: antiquewhite;
+    color: green;}
+            
+#Andresli{font-size: 25px;}
+        
+
+/* Juan Principal*/
+.eqjuan{
+    display: flex;
+    justify-content: end;
+    margin: 0px;
+    background-color: antiquewhite;
+    color: green;}
+
+#fotoJuan {
+    width: 300px;}
+
+h4{
+    display: flex;
+    justify-content:end;
+    margin: 5px;
+    margin-right: 500px;
+    background-color: antiquewhite;
+    font-size: 20px;
+    color: green;}
+        
+#ListaJuan{font-size: 25px;}
+
+/* Lucas Principal*/
+.eqLucas{
+    display: flex;
+    justify-items: center;
+    margin: 0px;
+    background-color: antiquewhite;
+    color: green;}
+    
+#fotoLucas {
+    width: 300px;}
+    h5{margin: 5px;
+    background-color: antiquewhite;
+    font-size: 20px;
+    color: green;}
+    
+#ListaLucas{font-size: 25px;}
+
+/*Sofia Principal*/
+.eqSofia{
+    display: flex;
+    justify-content: end;
+    justify-items: center;
+    margin: 0%;
+    background-color: antiquewhite;}
+
+#fotoSofia{width: 300px;}
+
+#listaSofia{
+    font-size: 25px;
+    color: green;}
+
+h6{
+    display: flex;
+    justify-content: end;
+    margin: 5px;
+    margin-right: 500px;
+    font-size: 20px;
+    color: green;
+}
+
+/*Fede Principal*/
+.eqFede{
+    display: flex;
+    justify-items:center;
+    background-color: antiquewhite;}
+
+#fotoFede{width: 300px;}
+#listaFede{
+    font-size: 25px;
+    color: green;}
+
+#Fedeh{
+    justify-content: left;
+    margin: 5px;
+    background-color: antiquewhite;
+    font-size: 20px;}

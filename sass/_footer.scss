@@ -3,32 +3,37 @@
     margin: 0px;
     background-color: #1A5276;
     padding: 4px;
+    align-items: center;
+
+    #Foto_footer_logo {
+      width: 130px;
+    }
+    
+    #redes {
+      display: flex;
+      justify-content: center;
+      padding-right: 60px;
+      margin: 0px;
+      list-style-type: none;
+    }
+    
+    #logo_footer_Facebook {
+      width: 70px;
+    }
+    
+    #logo_footer_Youtube {
+      width: 70px;
+    }
+    
+    #logo_footer_Instagram {
+      width: 70px;
+    }
+    
+    #logo_footer_Linkedin {
+      width: 70px;
+    }
+    
+    
   }
   
-  #Foto_footer_logo {
-    width: 130px;
-  }
   
-  #redes {
-    display: flex;
-    justify-content: center;
-    padding-right: 60px;
-    margin: 0px;
-    list-style-type: none;
-  }
-  
-  #logo_footer_Facebook {
-    width: 70px;
-  }
-  
-  #logo_footer_Youtube {
-    width: 70px;
-  }
-  
-  #logo_footer_Instagram {
-    width: 70px;
-  }
-  
-  #logo_footer_Linkedin {
-    width: 70px;
-  }
